@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap');
+
+:root {
+    --primary-color: aliceblue;
+    --secondary-color: aqua;
+    --contrast-color: yellow;
+    --heading-color: grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* home page */
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+h1{
+    color: var(--primary-color);
+    font-size: xx-large;
+    margin-left: 50px;
+}
+ul{
+    color: var(--primary-color);
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 0 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 20px;
+}
+.name{
+    color: var(--secondary-color);
+}
+
+.skills{
+    color: var(--contrast-color);
+}
+
+.greet {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.greet2{
+    text-align: center;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.header img{
+    width: 825px;
+    height: 550px;
+}
+
+.header .hero-photo img{
+    margin-left: 40px;
+    border-radius: 25px;
+    width: 500px;
+    height: 334px;
+}
+.description {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+}
+
+.description p {
+    line-height: 1.7rem;
+    font-size: 20px;
+}
+
+.description p{
+    line-height: 1.7rem;
+    font-size: 20px;
+}
+
+li img{
+    width: 20px;
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.active-page {
+    color: var(--secondary-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+nav li a:hover {
+    color: var(--secondary-color);
+}
+
+.typeOfPhotos {
+    padding: 49px;
+    text-align: center;
+}
+
+.social img{
+    width: 50px;
+    display: block;
+}
+
+.social{
+    margin: auto;
+    width: 50%;
+}
+
+/* my works tab*/
+.main {
+    text-align: center;
+}
+
+.main img{
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.main img:hover{
+    transform: scale(1.2);
+}
+
+.caption{
+    margin-top: 25px;
+}
+
+.my-captures{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    max-width: 90%;
+    margin : 0 auto;
+}
+
+.my-captures .caption{
+    margin-bottom: 60px;
+}
+
+.heading{
+    padding: 25px;
+    margin-left: 125px;
+    font-style: italic;
+    text-decoration-color: var(--primary-color);
+}
+
+/* connection tab */
+.connection{
+    text-align: center;
+    background-color: darkslategray;
+    padding: 30px;
+}
+
+.connection p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.connection .button{
+    background-color: var(--secondary-color);
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    max-width: 10%;
+}
+
+.social img{
+    height: auto;
+    width: 30px;
+    border-radius: 30%;
+    transition: transform .4s;
+}
+
+.social img:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-two{
+    font-size: 30px;
+}
+
+.end{
+    margin-bottom: 20px;
+}
